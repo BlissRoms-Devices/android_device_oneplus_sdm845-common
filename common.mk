@@ -26,6 +26,13 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
     $(LOCAL_PATH)/overlay-bliss
 
+PRODUCT_PACKAGES += \
+    OnePlusIconShapeCircleOverlay \
+    OnePlusIconShapeRoundedRectOverlay \
+    OnePlusIconShapeSquareOverlay \
+    OnePlusIconShapeSquircleOverlay \
+    OnePlusIconShapeTeardropOverlay
+
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 
