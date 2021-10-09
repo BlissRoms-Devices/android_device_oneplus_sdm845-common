@@ -85,4 +85,7 @@ void vendor_load_properties()
 {
 	// Load dalvik config
 	load_dalvikvm_properties();
+
+    // fingerprint
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/sunfish/sunfish:11/RP1A.201005.006/6828489:user/release-keys");
 }
