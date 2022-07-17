@@ -17,6 +17,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	DiagnosticsToolPrebuilt \
 	DMService \
 	Drive \
+	GCS \
 	HelpRtcPrebuilt \
 	Maps \
 	MicropaperPrebuilt \
@@ -26,6 +27,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	PrebuiltGmail \
 	RecorderPrebuilt \
 	SafetyHubPrebuilt \
+	ScribePrebuilt \
+	SecurityHubPrebuilt \
 	talkback
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
