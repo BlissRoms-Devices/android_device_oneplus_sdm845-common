@@ -28,4 +28,7 @@
     <dimen name="tri_state_up_dialog_position_l">270.375px</dimen>
     <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
+
+<!-- With the large clock, move up slightly from the center -->
+    <dimen name="keyguard_large_clock_top_margin">-40dp</dimen>
 </resources>
